@@ -1,6 +1,7 @@
 import os
 import argparse
-from openai import OpenAI
+import requests
+import json
 
 # ---------------------------------------------------------------------------
 # Evaluation set – 5 example inputs
@@ -67,16 +68,22 @@ def build_prompt(prompt_version: str, notes: str) -> str:
 
 
 def call_llm(prompt: str) -> str:
-    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-    response = client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0.7,
-        max_tokens=300,
+    api_key = os.environ.get("GOOGLE_API_KEY")
+    url = (
+        f"https://generativelanguage.googleapis.com/v1beta/models/"
+        f"gemini-2.5-flash:generateContent?key={api_key}"
     )
-    return response.choices[0].message.content.strip()
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "temperature": 0.7,
+            "maxOutputTokens": 300,
+        },
+    }
+    response = requests.post(url, headers={"Content-Type": "application/json"}, data=json.dumps(payload))
+    response.raise_for_status()
+    result = response.json()
+    return result["candidates"][0]["content"]["parts"][0]["text"].strip()
 
 
 def save_output(case_key: str, prompt_version: str, notes: str, output: str) -> str:
