@@ -77,13 +77,16 @@ def call_llm(prompt: str) -> str:
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "temperature": 0.7,
-            "maxOutputTokens": 300,
+            "maxOutputTokens": 1024,
         },
     }
     response = requests.post(url, headers={"Content-Type": "application/json"}, data=json.dumps(payload))
     response.raise_for_status()
     result = response.json()
-    return result["candidates"][0]["content"]["parts"][0]["text"].strip()
+    parts = result["candidates"][0]["content"]["parts"]
+    # Concatenate all text parts, skipping any internal "thought" parts
+    text = " ".join(p["text"] for p in parts if "text" in p).strip()
+    return text
 
 
 def save_output(case_key: str, prompt_version: str, notes: str, output: str) -> str:
