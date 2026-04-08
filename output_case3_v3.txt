@@ -1,0 +1,8 @@
+CASE: case3
+PROMPT VERSION: v3
+--------------------------------------------------
+INPUT:
+Townhome end unit more windows nice kitchen near hospital deck unfinished basement bath updated maybe 2022
+--------------------------------------------------
+OUTPUT:
+Discover this inviting end-unit townhome, distinguished by additional windows that enhance natural light throughout. The residence features a well-appointed kitchen, offering a functional space for daily living. An updated bath

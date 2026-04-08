@@ -1,0 +1,8 @@
+CASE: case4
+PROMPT VERSION: v3
+--------------------------------------------------
+INPUT:
+4 bed, 3 bath home in great neighborhood, top schools, very safe, 10 minutes from downtown
+--------------------------------------------------
+OUTPUT:
+Discover this well-appointed residence featuring 4 bedrooms and 3 bathrooms. This home offers a functional layout designed to accommodate various living arrangements. With multiple private spaces, including four bedrooms, and the

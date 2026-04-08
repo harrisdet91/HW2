@@ -1,0 +1,14 @@
+CASE: case4
+PROMPT VERSION: v1
+--------------------------------------------------
+INPUT:
+4 bed, 3 bath home in great neighborhood, top schools, very safe, 10 minutes from downtown
+--------------------------------------------------
+OUTPUT:
+Here are a few options, playing with slightly different tones:
+
+**Option 1: Classic & Inviting**
+
+**Discover Your Dream Home in a Coveted Location!**
+
+Welcome to this

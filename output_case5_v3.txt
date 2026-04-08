@@ -1,0 +1,8 @@
+CASE: case5
+PROMPT VERSION: v3
+--------------------------------------------------
+INPUT:
+3 bed, 2.5 bath townhome for rent. Smart switches, automated shades, finished basement, deck, quick highway access, near Cleveland Clinic.
+--------------------------------------------------
+OUTPUT:
+Discover this 3-bedroom, 2.5-bathroom townhome available for rent. This property features modern living with smart switches and automated shades. Additional finished basement space offers flexibility for various needs. Enjoy outdoor moments on the private deck. The townhome provides quick highway access for convenient travel and is situated near the Cleveland Clinic. This residence combines practical amenities with a functional layout.

@@ -1,0 +1,12 @@
+CASE: case4
+PROMPT VERSION: v2
+--------------------------------------------------
+INPUT:
+4 bed, 3 bath home in great neighborhood, top schools, very safe, 10 minutes from downtown
+--------------------------------------------------
+OUTPUT:
+Welcome to an exceptional opportunity in one of the city's most coveted neighborhoods, offering the perfect blend of suburban tranquility and urban convenience.
+
+Step inside this thoughtfully designed 4-bedroom, 3-bathroom residence, boasting generous living spaces ideal for both comfortable daily living and entertaining. Each room is crafted for comfort and functionality, providing an ideal sanctuary for every member of the household.
+
+Nestled within a great, very safe community with top-rated schools, this home also offers an unbeatable location just 10

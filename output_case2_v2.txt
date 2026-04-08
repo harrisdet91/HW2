@@ -1,0 +1,8 @@
+CASE: case2
+PROMPT VERSION: v2
+--------------------------------------------------
+INPUT:
+2 bed, 2 bath condo with 1,250 sq ft. Open layout, attached garage, HOA-maintained exterior, close to shopping and highways.
+--------------------------------------------------
+OUTPUT:
+Embrace a lifestyle of ease and sophistication in this inviting condo! Step inside this spacious 1,250 sq ft home, boasting an inviting open layout that seamlessly connects living spaces,

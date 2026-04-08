@@ -1,0 +1,8 @@
+CASE: case2
+PROMPT VERSION: v3
+--------------------------------------------------
+INPUT:
+2 bed, 2 bath condo with 1,250 sq ft. Open layout, attached garage, HOA-maintained exterior, close to shopping and highways.
+--------------------------------------------------
+OUTPUT:
+Discover this 2-bedroom, 2-bathroom condo offering 1,250 sq ft of living space. The residence features an open layout, providing a versatile environment. Convenience is enhanced with an attached garage. Enjoy the benefits of an HOA-maintained exterior, contributing to a simplified lifestyle. The property is situated with proximity to local shopping destinations and major highways, facilitating accessibility. This condo presents an opportunity for those seeking a well-located residence with practical amenities.

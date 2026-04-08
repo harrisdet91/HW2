@@ -1,0 +1,8 @@
+CASE: case1
+PROMPT VERSION: v1
+--------------------------------------------------
+INPUT:
+3 bed, 2.5 bath single-family home. Updated kitchen with quartz countertops, finished basement, fenced backyard, and two-car garage.
+--------------------------------------------------
+OUTPUT:
+Here are a few options, playing with slightly different tones.

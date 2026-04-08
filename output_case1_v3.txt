@@ -1,0 +1,8 @@
+CASE: case1
+PROMPT VERSION: v3
+--------------------------------------------------
+INPUT:
+3 bed, 2.5 bath single-family home. Updated kitchen with quartz countertops, finished basement, fenced backyard, and two-car garage.
+--------------------------------------------------
+OUTPUT:
+Discover this inviting 3-bedroom, 2.5-bathroom single-family home. The updated kitchen is a focal point, showcasing quartz countertops and a modern design. This property offers versatile living with an additional finished basement space, perfect for various needs. Outdoors, a private fenced backyard provides an enclosed area. Practicality is assured with a convenient two-car garage. This residence combines functional spaces with desirable features, ready for its new owners.
